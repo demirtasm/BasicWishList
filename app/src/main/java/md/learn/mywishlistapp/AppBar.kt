@@ -16,7 +16,8 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun AppBarView(
-    title: String, onBackNavClicked: () -> Unit = {
+    title: String,
+    onBackNavClicked: () -> Unit = {
 
     }
 ) {
